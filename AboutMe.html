@@ -23,9 +23,28 @@
                     <li>Star Trek</li>       
                     <li>Old Video Games</li> 
                 </ul>
-                <a img src="https://media.tenor.com/images/cc52d447579e131433460eb01d445eb1/tenor.gif"></a>
+                <a href="http://www.youtube.com">Youtube</a>
+                <p></p>
+                <img src="https://media1.tenor.com/images/7d72d9c4a40cb7e3d81d6b4b7f30e7e9/tenor.gif?itemid=10094292">
+                <p></p>
+                <input type="text" placeholder="Enter you name"/>
+                <p></p>
+                <header>
+                    <h1>Super Awesome Food Selector</h1>
+                </header>
+                <p></p>
+                <script>
+                    function chooseRandomly() {choices = document.getElementById("choicelist").value.split("\n");
+                          if (choices.length == 0) return; document.getElementById("result").value = choices[Math.floor(Math.random() * choices.length)];}
+                </script>
+                        <h5>Enter some restaurant names below, one per line, in the text area below, and click "Choose" to pick randomly from them.</h5>
+                        <form action="" onsubmit="return false;">
+                        <textarea id="choicelist" rows=10 cols=80>
+                        </textarea><br><br>
+                        <input type="button" value="Choose" onclick="chooseRandomly(); return false;"><br><br>
+                        <input id="result" type="text" size="80" value="" readonly="readonly"><br><br>
+                        </form> 
             </section>
         </article>
-        
     </body>
 </html>
