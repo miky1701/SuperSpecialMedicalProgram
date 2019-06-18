@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(255, 0, 0, 0.452);
+    text-align: center;
+    font-family: Arial;
+    padding: 10px;
+    margin: 10px;
+}
+h1 {
+    background-color: rgb(0, 255, 221);
+    color: #F9CDAD;
+    font-size: 8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+    border: 30px;
+    margin: 20px;
+}
+h2 {
+    color: rgba(67, 148, 254, 0.178);
+    background-color: rgba(173, 225, 249, 0.486);
+}
+img {
+    height: 250px;
+}
+p {
+    background-color: #FC9D9A;
+    color: white;
+    padding: 50px;
+    font-size: 2em;
+}
+ul {
+    background-color: rgb(192, 192, 192);
+    color: rgba(84, 131, 133, 0.336);
+    font-size: 3em; 
+    font-weight: bold;  
+}
